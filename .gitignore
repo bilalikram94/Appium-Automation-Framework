@@ -21,3 +21,25 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+
+.idea
+src/test/resources/capabilities
+src/test/resources/logs
+target
+test-report-videos
+test-reports
+test-screenshots
+AppiumAutomationFramework.iml
+old-report-data.json
+test-output
+.classpath
+.factorypath
+.project
+.DS_STORE
+.settings
+.vscode
+.class
+allure-results/*
+framework-generate-sample-report/*
+.mp4
