@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" thread-count="1"
+	   verbose="10" data-provider-thread-count="1">
+
+	<listeners>
+		<listener class-name="org.automation.listeners.Listener" />
+		<!-- Below is custom annotation listener -->
+		<!-- <listener class-name="org.automation.listeners.AnnotationTransformer"/> -->
+	</listeners>
+
+	<test name="Pixel 6">
+		<classes>
+
+			<class name="org.automation.tests.MobileTopUpTest">
+
+
+			</class>
+
+			<!--<class name="org.automation.tests.HomePageTest" />-->
+
+		</classes>
+	</test>
+
+	<!--<test name="device2">
+		<classes>
+			<class name="org.automation.tests.LoginPageTests" />
+			<class name="org.automation.tests.HomePageTest" />
+		</classes>
+	</test>-->
+
+	<!--	<test name="device3">-->
+	<!--		<classes>-->
+	<!--			<class name="org.automation.tests.LoginPageTests" />-->
+	<!--			<class name="org.automation.tests.HomePageTest" />-->
+	<!--		</classes>-->
+	<!--	</test>-->
+</suite>

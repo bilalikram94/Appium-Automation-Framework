@@ -1,0 +1,17 @@
+Fix:
+src/test/resources/Jenkins/SetupExecution.sh
+src/test/resources/Jenkins/Jenkinsfile
+framework-generate-sample-report/
+
+
+Update:
+Code
+Tests
+
+Check with:
+Zalenium
+Selenoid
+Dynamic Grd 4
+Selenium Grid 4
+
+Add in Readme:
