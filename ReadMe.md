@@ -143,3 +143,6 @@ Below are the component details of the framework:
 ### References:
 - [Selenium Grid 4](https://github.com/SeleniumHQ/docker-selenium)
 - [Selenoid](https://github.com/aerokube/selenoid)
+
+
+Original Work by: https://github.com/prashant1507/Appium-Automation-Framework
